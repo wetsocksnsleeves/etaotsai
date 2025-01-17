@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://realecto.github.io/etaotsai/images/favicon.png" />
+<title>Henosis Todo List App | Etao Tsai</title>
+<meta name="title" content="Henosis Todo List App" />
+<meta name="description" content="Why
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+
+How
+
+Next.js
+Tailwind CSS
+DragnDrog Module
+Firebase
+
+I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+
+Result
+A minimal, and reactive web app.
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today." />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Henosis Todo List App" />
+<meta property="og:description" content="Why
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+
+How
+
+Next.js
+Tailwind CSS
+DragnDrog Module
+Firebase
+
+I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+
+Result
+A minimal, and reactive web app.
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://realecto.github.io/etaotsai/portfolio/henosis_todo_list_app/" />
+
+<meta property="og:image" content="https://realecto.github.io/etaotsai/images/social_card_bg_hu14167811763104584019.webp"/><meta property="article:section" content="portfolio" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://realecto.github.io/etaotsai/images/social_card_bg_hu14167811763104584019.webp"/>
+<meta name="twitter:title" content="Henosis Todo List App"/>
+<meta name="twitter:description" content="Why
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+
+How
+
+Next.js
+Tailwind CSS
+DragnDrog Module
+Firebase
+
+I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+
+Result
+A minimal, and reactive web app.
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today."/>
+
+
+
+<meta itemprop="name" content="Henosis Todo List App">
+<meta itemprop="description" content="Why
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+
+How
+
+Next.js
+Tailwind CSS
+DragnDrog Module
+Firebase
+
+I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+
+Result
+A minimal, and reactive web app.
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today.">
+
+<meta itemprop="wordCount" content="158">
+
+<meta itemprop="image" content="https://realecto.github.io/etaotsai/images/social_card_bg_hu14167811763104584019.webp"/>
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/etaotsai/herman.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+      <header><a href="/etaotsai/" class="welcome"><h1 class="welcome-text">&gt; cat README.md</h1></a>
+<nav>
+
+    <a href="/etaotsai/" class="">
+        Home
+    </a>
+
+    <a href="/etaotsai/portfolio/" class="">
+        Portfolio
+    </a>
+
+    <a href="/etaotsai/blog/" class="">
+        Blog
+    </a>
+
+    <a href="/etaotsai/resume/" class="">
+        Résumé
+    </a>
+
+</nav>
+      </header>
+      <main id="main-content" class="mainContent" style="padding-top: 1rem;">
+
+<h1 style="padding-top: 3rem;">Henosis Todo List App</h1>
+<p class="byline">
+  <time datetime='0001-01-01' pubdate>
+    0001-01-01
+  </time>
+  
+</p>
+
+
+<content>
+  <p><strong>Why</strong><br>
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+<br>
+<strong>How</strong></p>
+<ul>
+<li>Next.js</li>
+<li>Tailwind CSS</li>
+<li>DragnDrog Module</li>
+<li>Firebase</li>
+</ul>
+<p>I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.<br>
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+<br>
+<strong>Result</strong><br>
+A minimal, and reactive web app.<br>
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today.</p>
+
+</content>
+
+      </main>
+    
+      <footer><small>
+    © Yi-Tao Tsai, 2025  |  Made from modifying <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a> with <a href="https://gohugo.io/">Hugo</a>
+</small>
+</footer>
+
+    
+</body>
+</html>
