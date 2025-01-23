@@ -2,36 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://realecto.github.io/etaotsai/</loc>
+    <loc>http://localhost:1313/etaotsai/</loc>
     <lastmod>2025-01-18T05:57:40+10:00</lastmod>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/personal_website/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/personal_website/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/henosis_todo_list_app/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/henosis_todo_list_app/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/blog/</loc>
+    <loc>http://localhost:1313/etaotsai/blog/</loc>
     <lastmod>2025-01-18T05:57:40+10:00</lastmod>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/image_manipulation_program_via_http/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/image_manipulation_program_via_http/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/resume/</loc>
+    <loc>http://localhost:1313/etaotsai/resume/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/intrusion_detection_system/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/intrusion_detection_system/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/csv_proxy_extraction_automation/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/csv_proxy_extraction_automation/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/sidebar/</loc>
+    <loc>http://localhost:1313/etaotsai/blog/making-markdown-preview-live-with-bash-script/</loc>
+    <lastmod>2025-01-18T05:57:40+10:00</lastmod>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/categories/</loc>
+    <loc>http://localhost:1313/etaotsai/sidebar/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/portfolio/encryption_and_decryption_projects/</loc>
+    <loc>http://localhost:1313/etaotsai/categories/</loc>
   </url><url>
-    <loc>https://realecto.github.io/etaotsai/tags/</loc>
+    <loc>http://localhost:1313/etaotsai/portfolio/encryption_and_decryption_projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/etaotsai/tags/</loc>
   </url>
 </urlset>

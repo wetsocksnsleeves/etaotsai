@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Etao Tsai</title>
-    <link>https://realecto.github.io/etaotsai/blog/</link>
+    <link>http://localhost:1313/etaotsai/blog/</link>
     <description>Recent content in Blog on Etao Tsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,6 +10,64 @@
     <webMaster>etao.business.au@gmail.com (Etao Tsai)</webMaster>
     <copyright>© Yi-Tao Tsai, 2025</copyright>
     <lastBuildDate>Sat, 18 Jan 2025 05:57:40 +1000</lastBuildDate>
-    <atom:link href="https://realecto.github.io/etaotsai/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/etaotsai/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making markdown preview live with bash script</title>
+      <link>http://localhost:1313/etaotsai/blog/making-markdown-preview-live-with-bash-script/</link>
+      <pubDate>Sat, 18 Jan 2025 05:57:40 +1000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
+      <guid>http://localhost:1313/etaotsai/blog/making-markdown-preview-live-with-bash-script/</guid>
+      <description>&lt;h1 id=&#34;making-a-bash-script-that-turns-glow-into-a-live-markdown-preview-tool&#34;&gt;Making a bash script that turns glow into a live markdown preview tool&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/charmbracelet/glow&#34;&gt;glow&lt;/a&gt; is a cli tool that allows markdown previews.But I couldn&amp;rsquo;t find any information on whether it supports live previews or not. Other tools also require browsers, which is something that I don&amp;rsquo;t want.&lt;/p&gt;&#xA;&lt;p&gt;I want something that works in the terminal and stays in the terminal.&lt;/p&gt;&#xA;&lt;h2 id=&#34;defining-my-requirements&#34;&gt;Defining my requirements&lt;/h2&gt;&#xA;&lt;p&gt;I needed something really quick and simple. My idea is to run a tmux pane on the side and have the script run glow, and re-run it if the chosen file had been changed.&lt;/p&gt;&#xA;&lt;p&gt;Not exactly a &amp;ldquo;live&amp;rdquo; preview, but it&amp;rsquo;s good enough for me. I just didn&amp;rsquo;t want to re-run glow manually everytime I change something. Is there a tool for this? Probably but I just couldn&amp;rsquo;t find it. But hey, I get to DIY!&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-process&#34;&gt;The process&lt;/h2&gt;&#xA;&lt;p&gt;I started off by thinking about python scripts. As I&amp;rsquo;ve had experience automating and writing scripts using it. It&amp;rsquo;s rich package eco-system can do basically anything I wanted it to do.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="making-a-bash-script-that-turns-glow-into-a-live-markdown-preview-tool">Making a bash script that turns glow into a live markdown preview tool</h1>
+<p><a href="https://github.com/charmbracelet/glow">glow</a> is a cli tool that allows markdown previews.But I couldn&rsquo;t find any information on whether it supports live previews or not. Other tools also require browsers, which is something that I don&rsquo;t want.</p>
+<p>I want something that works in the terminal and stays in the terminal.</p>
+<h2 id="defining-my-requirements">Defining my requirements</h2>
+<p>I needed something really quick and simple. My idea is to run a tmux pane on the side and have the script run glow, and re-run it if the chosen file had been changed.</p>
+<p>Not exactly a &ldquo;live&rdquo; preview, but it&rsquo;s good enough for me. I just didn&rsquo;t want to re-run glow manually everytime I change something. Is there a tool for this? Probably but I just couldn&rsquo;t find it. But hey, I get to DIY!</p>
+<h2 id="the-process">The process</h2>
+<p>I started off by thinking about python scripts. As I&rsquo;ve had experience automating and writing scripts using it. It&rsquo;s rich package eco-system can do basically anything I wanted it to do.</p>
+<p>But then I think it&rsquo;s overkill for this simple wrapper for glow. So I decided to make a bash script despite knowing nothing about bash script. 😱</p>
+<h2 id="the-script">The script</h2>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="cp"></span><span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -ne <span class="m">1</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl">    <span class="nb">echo</span> <span class="s2">&#34;Usage: glower &lt;file.md&gt;&#34;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">    <span class="nb">exit</span> <span class="m">1</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl">
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="nv">file</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl"><span class="nv">initial_time</span><span class="o">=</span><span class="k">$(</span>stat -c %Y <span class="s2">&#34;</span><span class="nv">$file</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl">
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="nv">PANE_ID</span><span class="o">=</span><span class="k">$(</span>tmux display-message -p <span class="s1">&#39;#{pane_id}&#39;</span><span class="k">)</span>
+</span></span><span class="line"><span class="ln">11</span><span class="cl">clear
+</span></span><span class="line"><span class="ln">12</span><span class="cl">glow <span class="s2">&#34;</span><span class="nv">$file</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="ln">13</span><span class="cl">
+</span></span><span class="line"><span class="ln">14</span><span class="cl"><span class="k">while</span> true<span class="p">;</span> <span class="k">do</span>
+</span></span><span class="line"><span class="ln">15</span><span class="cl">   <span class="nv">current_time</span><span class="o">=</span><span class="k">$(</span>stat -c %Y <span class="s2">&#34;</span><span class="nv">$file</span><span class="s2">&#34;</span><span class="k">)</span>
+</span></span><span class="line"><span class="ln">16</span><span class="cl">   <span class="k">if</span> <span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$current_time</span><span class="s2">&#34;</span> !<span class="o">=</span> <span class="s2">&#34;</span><span class="nv">$initial_time</span><span class="s2">&#34;</span> <span class="o">]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="ln">17</span><span class="cl">
+</span></span><span class="line"><span class="ln">18</span><span class="cl">        tmux send-keys -t <span class="nv">$PANE_ID</span> C-c
+</span></span><span class="line"><span class="ln">19</span><span class="cl">        clear
+</span></span><span class="line"><span class="ln">20</span><span class="cl">        glow <span class="s2">&#34;</span><span class="nv">$file</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="ln">21</span><span class="cl">
+</span></span><span class="line"><span class="ln">22</span><span class="cl">        <span class="nv">initial_time</span><span class="o">=</span><span class="nv">$current_time</span>
+</span></span><span class="line"><span class="ln">23</span><span class="cl">   <span class="k">fi</span>
+</span></span><span class="line"><span class="ln">24</span><span class="cl">   sleep <span class="m">1</span>
+</span></span><span class="line"><span class="ln">25</span><span class="cl"><span class="k">done</span></span></span></code></pre></div><p>The scripts works like this.</p>
+<ul>
+<li>If the amount of arguments is &ldquo;!=&rdquo; == &ldquo;-ne&rdquo; to one. Then print usage error</li>
+<li>Save the one and only argument to a variable called file. And store the last updated time information into another variable called initial_time</li>
+<li>Save the pid of the tmux pane the script is in. Clear the terminal. And launch glow</li>
+<li>In a while loop. If the time information of the file has changed then <!-- raw HTML omitted --> to reset everything in the pane. Incase cursor position is not neutral. Then run glow again</li>
+</ul>
+<h2 id="result">Result</h2>
+<p>A script that does what I wanted it to has been birthed. This was my first experience with writing bash scripts and it was a step forward into doing what I&rsquo;ve always wanted to do but was scared of the syntax of bash.</p>
+<p>I&rsquo;ve always loved automation and scripting to increase the quality of life. And I think I will continue to do so but now with bash + python.</p>
+<p>ok bye.</p>
+]]></content:encoded>
+    </item>
   </channel>
 </rss>
