@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Etao Tsai</title>
-    <link>https://realecto.github.io/etaotsai/</link>
+    <link>https://wetsocksnsleeves.github.io/etaotsai/</link>
     <description>Recent content on Etao Tsai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>etao.business.au@gmail.com (Etao Tsai)</webMaster>
     <copyright>© Yi-Tao Tsai, 2025</copyright>
     <lastBuildDate>Sat, 18 Jan 2025 05:57:40 +1000</lastBuildDate>
-    <atom:link href="https://realecto.github.io/etaotsai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wetsocksnsleeves.github.io/etaotsai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal Website</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/personal_website/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/personal_website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/personal_website/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/personal_website/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;A personal website had always been on the project list, but I couldn&amp;rsquo;t find a suitable&#xA;stack to get started. My past experiences building web apps include using react, and frameworks like&#xA;Next.js.&lt;br&gt;&#xA;Seeing that a personal website contains mainly static content, and maybe a blog section.&#xA;I felt like it would be using the wrong tool for the job. Until I came across Hugo.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo&lt;/li&gt;&#xA;&lt;li&gt;CSS&lt;/li&gt;&#xA;&lt;li&gt;HTML&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I started by reading the Hugo documentations, setting up the environments and learning out the structures worked.&#xA;I like to get my hands dirty, so I picked out a theme and started reading the structure. After abit, I understood the&#xA;way Hugo works and started heavily modifying the theme &amp;ldquo;Bearcub&amp;rdquo;.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Revamped the structure, and colors&lt;/li&gt;&#xA;&lt;li&gt;Added animations, social icons, and a custom home page&lt;/li&gt;&#xA;&lt;li&gt;Added features like embedded pdfs, and gallery view&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I would ideally use tailwind CSS since that&amp;rsquo;s what I am familiar with, but this experience allowed me to refresh my memory on CSS&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Why</strong><br>
 A personal website had always been on the project list, but I couldn&rsquo;t find a suitable
@@ -45,9 +45,9 @@ way Hugo works and started heavily modifying the theme &ldquo;Bearcub&rdquo;.
     </item>
     <item>
       <title>Henosis Todo List App</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/henosis_todo_list_app/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/henosis_todo_list_app/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Next.js&lt;/li&gt;&#xA;&lt;li&gt;Tailwind CSS&lt;/li&gt;&#xA;&lt;li&gt;DragnDrog Module&lt;/li&gt;&#xA;&lt;li&gt;Firebase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.&lt;br&gt;&#xA;I then connected Firebase with the application to realise OAuth and data store and retrive.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;A minimal, and reactive web app.&lt;br&gt;&#xA;I made my first ever mistake of not redacting my token, as I didn&amp;rsquo;t know anything about web apps prior to this project. So that&amp;rsquo;s one of the biggest takeaways I&amp;rsquo;ve rememberd till today.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Why</strong><br>
 I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
@@ -69,9 +69,9 @@ I made my first ever mistake of not redacting my token, as I didn&rsquo;t know a
     </item>
     <item>
       <title>Algorithmic Optimisations and Pathfinding</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/algorithmic_optimisations_and_pathfinding/</guid>
       <description>&lt;p&gt;&lt;strong&gt;What&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Optimising algorithms for space and time efficiency. Implemented many data structures such as&#xA;bitvectors, bloomfilters, queues, stack, and maps within ideal space and time efficiency.&lt;/li&gt;&#xA;&lt;li&gt;Solved various programming problems such as k-mer combinations, chain reactions, and graph problems with theoretical efficiency in mind&lt;/li&gt;&#xA;&lt;li&gt;Implemented pathfinding algorithms such as BFS and dijkstra. And using it to solve graph related problems.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;Understanding the use cases of data structures, how to implement them effectively.&lt;br&gt;&#xA;Studying the relationship between empirical and theoretical efficiency.&#xA;Studying various foundational programming problems, their place in our systems and how to solve them effectively.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>What</strong></p>
 <ul>
@@ -88,9 +88,9 @@ Studying various foundational programming problems, their place in our systems a
     </item>
     <item>
       <title>Image Manipulation Program via Http</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/image_manipulation_program_via_http/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/image_manipulation_program_via_http/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/image_manipulation_program_via_http/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/image_manipulation_program_via_http/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;C&lt;/li&gt;&#xA;&lt;li&gt;libFreeImage&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;Implemented a multi-threaded server that listens in on a user or randomly selected port for TCP traffic,&#xA;validates it if it&amp;rsquo;s a valid HTTP request, parses the image, performs user determined manipulation on said image,&#xA;and sends it back to the user&amp;rsquo;s client.&lt;br&gt;&#xA;&lt;br&gt;&#xA;Implemented a user client that listens in on provided port, builds a valid HTTP request containing commands and image data. Validates response and parses the modified image. &lt;strong&gt;See at bottom right of image, showing before and after image manipulation&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Tools</strong></p>
 <ul>
@@ -107,9 +107,9 @@ Implemented a user client that listens in on provided port, builds a valid HTTP 
     </item>
     <item>
       <title>Intrusion Detection System</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/intrusion_detection_system/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/intrusion_detection_system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/intrusion_detection_system/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/intrusion_detection_system/</guid>
       <description>&lt;p&gt;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;Scapy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Takes a series of instructions reminiscent of snort rules. Parse through a pcap file using scapy and identify suspicious packets.&#xA;Implement support for content filters, flag analysis, and time based thresholds defined within given ruleset.&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;A IDS system that is able to parse and detect suspicious packets across a wide range of scenarios.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>How</strong></p>
 <ul>
@@ -125,9 +125,9 @@ A IDS system that is able to parse and detect suspicious packets across a wide r
     </item>
     <item>
       <title>Snakes and Ladders via Atmega328 and LED Matrix</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/snakes_and_ladders_via_atmega328/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;br&gt;&#xA;A snakes and ladders replica built with Atmega328 microcontroller and LED matrix + buttons for UI.&lt;/p&gt;&#xA;&lt;p&gt;Program was written in C and flashed via serial connection with Putty.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;What&lt;/strong&gt;&lt;br&gt;&#xA;Relevant knowledge included fundamental understanding of chip specifications, circuits, and C programming.&#xA;Timing, bitwise operations, and control via pins were the main components that went into this project.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;Understanding the communication between the MCU and its IOs. Exercise control via code.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Description</strong><br>
 A snakes and ladders replica built with Atmega328 microcontroller and LED matrix + buttons for UI.</p>
@@ -143,9 +143,9 @@ Understanding the communication between the MCU and its IOs. Exercise control vi
     </item>
     <item>
       <title>CSV Proxy Extraction Automation</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/csv_proxy_extraction_automation/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/csv_proxy_extraction_automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/csv_proxy_extraction_automation/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/csv_proxy_extraction_automation/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;During one of my projects, I had to utilise a series of proxies to bypass a limiter.&#xA;I got a CSV off the internet of various different proxies, but I was met with an issue.&#xA;The issue was that the interface took in a different format than what I required.&#xA;And thus, I decided to automate this manual process by writing a simple python script.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;br&gt;&#xA;I read the file and did some basic string manipulation.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;Formatted hundreds of proxies in seconds. Minutes including the scripting.&#xA;Automation via a scripting language is something that I find myself doing regularly,&#xA;and this is one of the most easily visualised examples.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Why</strong><br>
 During one of my projects, I had to utilise a series of proxies to bypass a limiter.
@@ -164,9 +164,9 @@ and this is one of the most easily visualised examples.</p>
     </item>
     <item>
       <title>Making markdown preview live with bash script</title>
-      <link>https://realecto.github.io/etaotsai/blog/making-markdown-preview-live-with-bash-script/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/blog/making-markdown-preview-live-with-bash-script/</link>
       <pubDate>Sat, 18 Jan 2025 05:57:40 +1000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/blog/making-markdown-preview-live-with-bash-script/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/blog/making-markdown-preview-live-with-bash-script/</guid>
       <description>&lt;h1 id=&#34;making-a-bash-script-that-turns-glow-into-a-live-markdown-preview-tool&#34;&gt;Making a bash script that turns glow into a live markdown preview tool&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/charmbracelet/glow&#34;&gt;glow&lt;/a&gt; is a cli tool that allows markdown previews.But I couldn&amp;rsquo;t find any information on whether it supports live previews or not. Other tools also require browsers, which is something that I don&amp;rsquo;t want.&lt;/p&gt;&#xA;&lt;p&gt;I want something that works in the terminal and stays in the terminal.&lt;/p&gt;&#xA;&lt;h2 id=&#34;defining-my-requirements&#34;&gt;Defining my requirements&lt;/h2&gt;&#xA;&lt;p&gt;I needed something really quick and simple. My idea is to run a tmux pane on the side and have the script run glow, and re-run it if the chosen file had been changed.&lt;/p&gt;&#xA;&lt;p&gt;Not exactly a &amp;ldquo;live&amp;rdquo; preview, but it&amp;rsquo;s good enough for me. I just didn&amp;rsquo;t want to re-run glow manually everytime I change something. Is there a tool for this? Probably but I just couldn&amp;rsquo;t find it. But hey, I get to DIY!&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-process&#34;&gt;The process&lt;/h2&gt;&#xA;&lt;p&gt;I started off by thinking about python scripts. As I&amp;rsquo;ve had experience automating and writing scripts using it. It&amp;rsquo;s rich package eco-system can do basically anything I wanted it to do.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="making-a-bash-script-that-turns-glow-into-a-live-markdown-preview-tool">Making a bash script that turns glow into a live markdown preview tool</h1>
 <p><a href="https://github.com/charmbracelet/glow">glow</a> is a cli tool that allows markdown previews.But I couldn&rsquo;t find any information on whether it supports live previews or not. Other tools also require browsers, which is something that I don&rsquo;t want.</p>
@@ -222,9 +222,9 @@ and this is one of the most easily visualised examples.</p>
     </item>
     <item>
       <title>Encryption and Decryption Projects</title>
-      <link>https://realecto.github.io/etaotsai/portfolio/encryption_and_decryption_projects/</link>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/encryption_and_decryption_projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://realecto.github.io/etaotsai/portfolio/encryption_and_decryption_projects/</guid>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/encryption_and_decryption_projects/</guid>
       <description>&lt;p&gt;&lt;strong&gt;What&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;AES encryption and decryption via modes such as ECB, CBC, CFB, OFB and CTR.&lt;/li&gt;&#xA;&lt;li&gt;Diffie hellman key exchange&lt;/li&gt;&#xA;&lt;li&gt;RSA Encryption and decryption&lt;/li&gt;&#xA;&lt;li&gt;Packet contruction using encryption methods for ESP IPsec protocol&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;pycroptodome&lt;/li&gt;&#xA;&lt;li&gt;cryptography&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;Achieved recreating the series of encrpytion decryption methods, DF key exchange and correct packet construction for ESP.&#xA;Learnt the ways encryption and decryption methods work and the usage of relevant python libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>What</strong></p>
 <ul>
