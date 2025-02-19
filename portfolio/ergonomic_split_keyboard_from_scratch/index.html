@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://wetsocksnsleeves.github.io/etaotsai/images/favicon.png" />
+<title>Ergonomic Split Keyboard From Scratch | Etao Tsai</title>
+<meta name="title" content="Ergonomic Split Keyboard From Scratch" />
+<meta name="description" content="What:
+I designed and built a custom 54 key orthlinear, column staggered split keyboard.
+Managing every aspect from designing the PCB, compiling the firmware based on vial,
+as well as designing and 3D printing the case with my 3D printers.
+PCB Design:
+
+Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.
+Optimizing component position and wiring to ensure manufacturability.
+Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.
+
+Firmware development:
+
+Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.
+Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.
+
+Case fabrication:" />
+<meta name="author" content="" />
+<meta name="keywords" content="" />
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Ergonomic Split Keyboard From Scratch" />
+<meta property="og:description" content="What:
+I designed and built a custom 54 key orthlinear, column staggered split keyboard.
+Managing every aspect from designing the PCB, compiling the firmware based on vial,
+as well as designing and 3D printing the case with my 3D printers.
+PCB Design:
+
+Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.
+Optimizing component position and wiring to ensure manufacturability.
+Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.
+
+Firmware development:
+
+Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.
+Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.
+
+Case fabrication:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wetsocksnsleeves.github.io/etaotsai/portfolio/ergonomic_split_keyboard_from_scratch/" />
+
+<meta property="og:image" content="https://wetsocksnsleeves.github.io/etaotsai/images/social_card_bg_hu4246458870986977521.webp"/><meta property="article:section" content="portfolio" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://wetsocksnsleeves.github.io/etaotsai/images/social_card_bg_hu4246458870986977521.webp"/>
+<meta name="twitter:title" content="Ergonomic Split Keyboard From Scratch"/>
+<meta name="twitter:description" content="What:
+I designed and built a custom 54 key orthlinear, column staggered split keyboard.
+Managing every aspect from designing the PCB, compiling the firmware based on vial,
+as well as designing and 3D printing the case with my 3D printers.
+PCB Design:
+
+Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.
+Optimizing component position and wiring to ensure manufacturability.
+Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.
+
+Firmware development:
+
+Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.
+Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.
+
+Case fabrication:"/>
+
+
+
+<meta itemprop="name" content="Ergonomic Split Keyboard From Scratch">
+<meta itemprop="description" content="What:
+I designed and built a custom 54 key orthlinear, column staggered split keyboard.
+Managing every aspect from designing the PCB, compiling the firmware based on vial,
+as well as designing and 3D printing the case with my 3D printers.
+PCB Design:
+
+Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.
+Optimizing component position and wiring to ensure manufacturability.
+Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.
+
+Firmware development:
+
+Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.
+Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.
+
+Case fabrication:">
+
+<meta itemprop="wordCount" content="247">
+
+<meta itemprop="image" content="https://wetsocksnsleeves.github.io/etaotsai/images/social_card_bg_hu4246458870986977521.webp"/>
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  
+  <link href="/etaotsai/herman.min.css" rel="stylesheet">
+
+  
+
+  
+
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+      <header><a href="/etaotsai/" class="welcome"><h1 class="welcome-text">&gt; cat README.md</h1></a>
+<nav>
+
+    <a href="/etaotsai/" class="">
+        Home
+    </a>
+
+    <a href="/etaotsai/portfolio/" class="">
+        Portfolio
+    </a>
+
+    <a href="/etaotsai/blog/" class="">
+        Blog
+    </a>
+
+    <a href="/etaotsai/resume/" class="">
+        Résumé
+    </a>
+
+</nav>
+      </header>
+      <main id="main-content" class="mainContent" style="padding-top: 1rem;">
+
+<h1 style="padding-top: 3rem;">Ergonomic Split Keyboard From Scratch</h1>
+<p class="byline">
+  <time datetime='0001-01-01' pubdate>
+    0001-01-01
+  </time>
+  
+</p>
+
+
+<content>
+  <p><strong>What:</strong></p>
+<p>I designed and built a custom 54 key orthlinear, column staggered split keyboard.
+Managing every aspect from designing the PCB, compiling the firmware based on vial,
+as well as designing and 3D printing the case with my 3D printers.</p>
+<p><strong>PCB Design:</strong></p>
+<ul>
+<li>Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.</li>
+<li>Optimizing component position and wiring to ensure manufacturability.</li>
+<li>Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.</li>
+</ul>
+<p><strong>Firmware development:</strong></p>
+<ul>
+<li>Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.</li>
+<li>Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.</li>
+</ul>
+<p><strong>Case fabrication:</strong></p>
+<ul>
+<li>Exporting STEP model from KiCad to fusion 360. And utilising functions such as shell,
+mirror and project within the tool to achieve my vision.</li>
+<li>3D printed the case using heavily modified Ender 3 series printers.
+All setup within my home lab and is managed via the local network using Raspberry Pi Zero Ws.</li>
+</ul>
+<p><strong>Result:</strong></p>
+<p>A fully functional split ergonomic keyboard that required me to demonstrate my ability to:
+Carry an idea from paper to reality, solving real world design challenges,
+splitting a problem into a structured plan, assessing limitations in my knowledge
+and utilising existing technology.</p>
+
+</content>
+
+      </main>
+    
+      <footer><small>
+    © Yi-Tao Tsai, 2025  |  Made from modifying <a href="https://github.com/clente/hugo-bearcub">Bear Cub</a> with <a href="https://gohugo.io/">Hugo</a>
+</small>
+</footer>
+
+    
+</body>
+</html>
