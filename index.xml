@@ -9,12 +9,12 @@
     <managingEditor>etao.business.au@gmail.com (Etao Tsai)</managingEditor>
     <webMaster>etao.business.au@gmail.com (Etao Tsai)</webMaster>
     <copyright>© Yi-Tao Tsai, 2025</copyright>
-    <lastBuildDate>Sat, 18 Jan 2025 05:57:40 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wetsocksnsleeves.github.io/etaotsai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ergonomic Split Keyboard From Scratch</title>
       <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/ergonomic_split_keyboard_from_scratch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
       <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/ergonomic_split_keyboard_from_scratch/</guid>
       <description>&lt;p&gt;&lt;strong&gt;What:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I designed and built a custom 54 key orthlinear, column staggered split keyboard.&#xA;Managing every aspect from designing the PCB, compiling the firmware based on vial,&#xA;as well as designing and 3D printing the case with my 3D printers.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PCB Design:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Drawing circuit schematic within KiCad. Understanding the software and the layers into PCB creation.&lt;/li&gt;&#xA;&lt;li&gt;Optimizing component position and wiring to ensure manufacturability.&lt;/li&gt;&#xA;&lt;li&gt;Using the Japanese duplex matrix to minimise the number of pins required. Simplifying component sourcing such as RJ45 sockets and a spare RP2040 mcu from previous projects.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Firmware development:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understanding the value of creating firmware from scratch or utilise matured and existing technologies throughout project. Ultimately, using the vial firmware with easy GUI for keymaps and alterations.&lt;/li&gt;&#xA;&lt;li&gt;Understanding the structure of the vial firmware. Had to first compile the QMK firmware, requiring past knowledge of C and the ability to troubleshoot and refer to documentations.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Case fabrication:&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>What:</strong></p>
@@ -49,7 +49,7 @@ and utilising existing technology.</p>
     <item>
       <title>Omni - Content creation toolkit</title>
       <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/omni_web_app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
       <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/omni_web_app/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;When trying to move content from my phone to my computer, I&amp;rsquo;ve always felt like it was a chore.&#xA;If you don&amp;rsquo;t have a fully Apple setup, you&amp;rsquo;d have to opt for google drive and google photos.&lt;/p&gt;&#xA;&lt;p&gt;So I decided to create a web application, starting off as a local file transfer tool and expanding it to include:&#xA;Media downloader, Notes, Gif creator and much more&amp;hellip;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deno&lt;/li&gt;&#xA;&lt;li&gt;Deno Fresh&lt;/li&gt;&#xA;&lt;li&gt;Tailwindcss&lt;/li&gt;&#xA;&lt;li&gt;FFmpeg&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;User uploads are stored directly onto the server&amp;rsquo;s storage. The website renders the content by fetching what&amp;rsquo;s inside the storage, thumbnails and gifs are then created via FFmpeg if they are non-existent. Keeping everything clean and fast.&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;Downloads are processed based on what the users selections are. Multiple selections are compressed into a zip file before download prompt, minimising user inputs and effectively improving the user experience.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📁 A local file transfer system. No more sending your content onto another guy&amp;rsquo;s computer.&lt;/li&gt;&#xA;&lt;li&gt;📶 File upload and Download with visual prompts&lt;/li&gt;&#xA;&lt;li&gt;✅ Easy selection/deselection&lt;/li&gt;&#xA;&lt;li&gt;🖼️ Automatic thumbnail generation for both videos and images. Videos are coupled with a gif for fast preview.&lt;/li&gt;&#xA;&lt;li&gt;🤐 Automatic zipping if downloading multiple files.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;Omni is going to be much more. This is just a part of it.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Why</strong><br>
@@ -104,6 +104,30 @@ If multiple files are selected, the tool will automatically compress the given f
 ]]></content:encoded>
     </item>
     <item>
+      <title>Henosis Todo List App</title>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Next.js&lt;/li&gt;&#xA;&lt;li&gt;Tailwind CSS&lt;/li&gt;&#xA;&lt;li&gt;DragnDrog Module&lt;/li&gt;&#xA;&lt;li&gt;Firebase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.&lt;br&gt;&#xA;I then connected Firebase with the application to realise OAuth and data store and retrive.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;A minimal, and reactive web app.&lt;br&gt;&#xA;I made my first ever mistake of not redacting my token, as I didn&amp;rsquo;t know anything about web apps prior to this project. So that&amp;rsquo;s one of the biggest takeaways I&amp;rsquo;ve rememberd till today.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>Why</strong><br>
+I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
+<br>
+<strong>How</strong></p>
+<ul>
+<li>Next.js</li>
+<li>Tailwind CSS</li>
+<li>DragnDrog Module</li>
+<li>Firebase</li>
+</ul>
+<p>I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.<br>
+I then connected Firebase with the application to realise OAuth and data store and retrive.
+<br>
+<strong>Result</strong><br>
+A minimal, and reactive web app.<br>
+I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today.</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Personal Website</title>
       <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/personal_website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
@@ -133,30 +157,6 @@ way Hugo works and started heavily modifying the theme &ldquo;Bearcub&rdquo;.
 <li>Added features like embedded pdfs, and gallery view</li>
 </ul>
 <p>I would ideally use tailwind CSS since that&rsquo;s what I am familiar with, but this experience allowed me to refresh my memory on CSS</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Henosis Todo List App</title>
-      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/henosis_todo_list_app/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Next.js&lt;/li&gt;&#xA;&lt;li&gt;Tailwind CSS&lt;/li&gt;&#xA;&lt;li&gt;DragnDrog Module&lt;/li&gt;&#xA;&lt;li&gt;Firebase&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.&lt;br&gt;&#xA;I then connected Firebase with the application to realise OAuth and data store and retrive.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;A minimal, and reactive web app.&lt;br&gt;&#xA;I made my first ever mistake of not redacting my token, as I didn&amp;rsquo;t know anything about web apps prior to this project. So that&amp;rsquo;s one of the biggest takeaways I&amp;rsquo;ve rememberd till today.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p><strong>Why</strong><br>
-I was building react apps and was coming across alot of issues with the framework. Particularly inconvient error messages and bugs that ultimately got me nowhere. Still wanting to build a webapp for fun however, I searched online till I came across a great introduction to Next.js and decided to build something with it.
-<br>
-<strong>How</strong></p>
-<ul>
-<li>Next.js</li>
-<li>Tailwind CSS</li>
-<li>DragnDrog Module</li>
-<li>Firebase</li>
-</ul>
-<p>I build the frontend with Next.js and Tailwind. A simple todo list app consisted of looping through a list and rendering relevant html components. Making it looks good with tailwind. And then implementing drag n drop by using existing modules.<br>
-I then connected Firebase with the application to realise OAuth and data store and retrive.
-<br>
-<strong>Result</strong><br>
-A minimal, and reactive web app.<br>
-I made my first ever mistake of not redacting my token, as I didn&rsquo;t know anything about web apps prior to this project. So that&rsquo;s one of the biggest takeaways I&rsquo;ve rememberd till today.</p>
 ]]></content:encoded>
     </item>
     <item>
