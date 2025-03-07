@@ -47,11 +47,11 @@ and utilising existing technology.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Omni - Content creation toolkit</title>
-      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/omni_web_app/</link>
+      <title>Local File Transfer Web App</title>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/local_file_transfer_web_app/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
-      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/omni_web_app/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;When trying to move content from my phone to my computer, I&amp;rsquo;ve always felt like it was a chore.&#xA;If you don&amp;rsquo;t have a fully Apple setup, you&amp;rsquo;d have to opt for google drive and google photos.&lt;/p&gt;&#xA;&lt;p&gt;So I decided to create a web application, starting off as a local file transfer tool and expanding it to include:&#xA;Media downloader, Notes, Gif creator and much more&amp;hellip;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deno&lt;/li&gt;&#xA;&lt;li&gt;Deno Fresh&lt;/li&gt;&#xA;&lt;li&gt;Tailwindcss&lt;/li&gt;&#xA;&lt;li&gt;FFmpeg&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;User uploads are stored directly onto the server&amp;rsquo;s storage. The website renders the content by fetching what&amp;rsquo;s inside the storage, thumbnails and gifs are then created via FFmpeg if they are non-existent. Keeping everything clean and fast.&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;Downloads are processed based on what the users selections are. Multiple selections are compressed into a zip file before download prompt, minimising user inputs and effectively improving the user experience.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📁 A local file transfer system. No more sending your content onto another guy&amp;rsquo;s computer.&lt;/li&gt;&#xA;&lt;li&gt;📶 File upload and Download with visual prompts&lt;/li&gt;&#xA;&lt;li&gt;✅ Easy selection/deselection&lt;/li&gt;&#xA;&lt;li&gt;🖼️ Automatic thumbnail generation for both videos and images. Videos are coupled with a gif for fast preview.&lt;/li&gt;&#xA;&lt;li&gt;🤐 Automatic zipping if downloading multiple files.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;Omni is going to be much more. This is just a part of it.&lt;/p&gt;</description>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/local_file_transfer_web_app/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why&lt;/strong&gt;&lt;br&gt;&#xA;When trying to move content from my phone to my computer, I&amp;rsquo;ve always felt like it was a chore.&#xA;If you don&amp;rsquo;t have a fully Apple setup, you&amp;rsquo;d have to opt for google drive and google photos.&lt;/p&gt;&#xA;&lt;p&gt;So I decided to create a web application, starting off as a local file transfer tool and expanding it to include:&#xA;Media downloader, Notes, Gif creator and much more&amp;hellip;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deno&lt;/li&gt;&#xA;&lt;li&gt;Deno Fresh&lt;/li&gt;&#xA;&lt;li&gt;Tailwindcss&lt;/li&gt;&#xA;&lt;li&gt;FFmpeg&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;User uploads are stored directly onto the server&amp;rsquo;s storage. The website renders the content by fetching what&amp;rsquo;s inside the storage, thumbnails and gifs are then created via FFmpeg if they are non-existent. Keeping everything clean and fast.&lt;/p&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;Downloads are processed based on what the users selections are. Multiple selections are compressed into a zip file before download prompt, minimising user inputs and effectively improving the user experience.&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📁 A local file transfer system. No more sending your content onto another guy&amp;rsquo;s computer.&lt;/li&gt;&#xA;&lt;li&gt;📶 File upload and Download with visual prompts&lt;/li&gt;&#xA;&lt;li&gt;✅ Easy selection/deselection&lt;/li&gt;&#xA;&lt;li&gt;🖼️ Automatic thumbnail generation for both videos and images. Videos are coupled with a gif for fast preview.&lt;/li&gt;&#xA;&lt;li&gt;🤐 Automatic zipping if downloading multiple files.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;strong&gt;Mobile upload using photos&lt;/strong&gt;&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p><strong>Why</strong><br>
 When trying to move content from my phone to my computer, I&rsquo;ve always felt like it was a chore.
 If you don&rsquo;t have a fully Apple setup, you&rsquo;d have to opt for google drive and google photos.</p>
@@ -79,10 +79,8 @@ Downloads are processed based on what the users selections are. Multiple selecti
 <li>🤐 Automatic zipping if downloading multiple files.</li>
 </ul>
 <p><br>
-Omni is going to be much more. This is just a part of it.</p>
-<p><br>
 <strong>Mobile upload using photos</strong></p>
-<p><img src="../../images/omni/mobile_uploads.jpg" alt="Mobile Uploads"></p>
+<p><img src="../../images/file_transer_app/mobile_uploads.jpg" alt="Mobile Uploads"></p>
 <ul>
 <li>✅ Multi-select is supported</li>
 <li>🔃 Uploading indicator</li>
@@ -90,17 +88,17 @@ Omni is going to be much more. This is just a part of it.</p>
 <p>On mobile, user can select media files from either their files, or their photos application.</p>
 <p><br>
 <strong>Video previews</strong>
-<img src="../../images/omni/video_preview_feature.gif" alt="Video Preview Feature">
+<img src="../../images/file_transer_app/video_preview_feature.gif" alt="Video Preview Feature">
 <br>
 Video previews and thumbnails are done through generating both a thumbnail and a gif when files are uploaded.
 The two are then overlayed and opacity is set based on hover. This greatly improves performance compared to using an embedded video file.</p>
 <p><br>
 <strong>Downloads</strong><br>
 The user can then download their selected files on the other device. Completing the transfer process.</p>
-<p><img src="../../images/omni/download_on_pc.png" alt="Download on PC"></p>
+<p><img src="../../images/file_transer_app/download_on_pc.png" alt="Download on PC"></p>
 <p><br>
 If multiple files are selected, the tool will automatically compress the given files into a zip. Allowing the user to download all the files at once.</p>
-<p><img src="../../images/omni/save_zip_feature.png" alt="Zip feature"></p>
+<p><img src="../../images/file_transer_app/save_zip_feature.png" alt="Zip feature"></p>
 ]]></content:encoded>
     </item>
     <item>
