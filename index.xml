@@ -9,7 +9,7 @@
     <managingEditor>etao.business.au@gmail.com (Etao Tsai)</managingEditor>
     <webMaster>etao.business.au@gmail.com (Etao Tsai)</webMaster>
     <copyright>© Yi-Tao Tsai, 2025</copyright>
-    <lastBuildDate>Tue, 18 Mar 2025 14:16:58 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://wetsocksnsleeves.github.io/etaotsai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ergonomic Split Keyboard From Scratch</title>
@@ -98,6 +98,41 @@ The user can then download their selected files on the other device. Completing 
 <p><br>
 If multiple files are selected, the tool will automatically compress the given files into a zip. Allowing the user to download all the files at once.</p>
 <p><img src="../../images/file_tranfser_app/save_zip_feature.png" alt="Zip feature"></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Homeserver Build</title>
+      <link>https://wetsocksnsleeves.github.io/etaotsai/portfolio/homeserver_build/</link>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate><author>etao.business.au@gmail.com (Etao Tsai)</author>
+      <guid>https://wetsocksnsleeves.github.io/etaotsai/portfolio/homeserver_build/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;Picked and built a dedicated machine as a homeserver.&lt;/p&gt;&#xA;&lt;p&gt;Created due to an interest to expand my current homelab environment. Wanted to&#xA;experiment with various networking tools. And strengthen technical knowledge.&lt;br&gt;&#xA;&lt;br&gt;&#xA;&lt;strong&gt;Setup includes:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Proxmox VE as main OS&lt;/li&gt;&#xA;&lt;li&gt;NAS with RAID 5 configuration&lt;/li&gt;&#xA;&lt;li&gt;VPN server to enable remote access to home network&lt;/li&gt;&#xA;&lt;li&gt;Various VMs to experiment with Linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;strong&gt;How&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Proxmox VE as OS, ability to manage containers and virtual machines.&lt;/li&gt;&#xA;&lt;li&gt;TrueNAS for NAS, future plans to utilize HBA (Host Bus Adapter) passthrough.&lt;/li&gt;&#xA;&lt;li&gt;Wireguard with wgdash for VPN server.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;br&gt;&#xA;&lt;strong&gt;Result&lt;/strong&gt;&lt;br&gt;&#xA;&lt;br&gt;&#xA;Hands on experience with enterprise level software, VM management, and NAS management.&#xA;Solidified conceptual understanding of RAID configurations via practical usage.&#xA;Gained further understanding in VPN servers and setting up split + on-demand client&#xA;configurations.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p><strong>What</strong><br>
+<br>
+Picked and built a dedicated machine as a homeserver.</p>
+<p>Created due to an interest to expand my current homelab environment. Wanted to
+experiment with various networking tools. And strengthen technical knowledge.<br>
+<br>
+<strong>Setup includes:</strong></p>
+<ul>
+<li>Proxmox VE as main OS</li>
+<li>NAS with RAID 5 configuration</li>
+<li>VPN server to enable remote access to home network</li>
+<li>Various VMs to experiment with Linux</li>
+</ul>
+<p><br>
+<strong>How</strong></p>
+<ul>
+<li>Proxmox VE as OS, ability to manage containers and virtual machines.</li>
+<li>TrueNAS for NAS, future plans to utilize HBA (Host Bus Adapter) passthrough.</li>
+<li>Wireguard with wgdash for VPN server.</li>
+</ul>
+<p><br>
+<strong>Result</strong><br>
+<br>
+Hands on experience with enterprise level software, VM management, and NAS management.
+Solidified conceptual understanding of RAID configurations via practical usage.
+Gained further understanding in VPN servers and setting up split + on-demand client
+configurations.</p>
 ]]></content:encoded>
     </item>
     <item>
